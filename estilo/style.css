@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+/*Configuração golbal*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Pagina inicial*/
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif, cursive;
+}
+
+header {
+    height: 350px;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(176, 176, 246), blue);
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+div#dados {
+    padding: 60px 0px 0px 0px;
+}
+
+div#dados > h1 {
+    font-family: cursive;
+    text-shadow: 2px 2px 3px black;
+    color: black;
+}
+
+div#dados h2 {
+    font-family: cursive;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+
+img#victor2 {
+    display: none;
+}
+
+
+div#dados img.icones {
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+div#dados p {
+    display: none;
+}
+
+nav#menu {
+    padding: 10px;
+    text-align: center;
+    
+}
+nav#menu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: -3px;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+nav#menu a:hover {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    transition: .5s;
+
+}
+
+section#jogo > iframe {
+    width: 90vw;
+    height: 100vh;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.338);
+}
+
+section#jogo a#new-game {
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+
+    
+}
+
+section#jogo a#new-game:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* Meus Projetos */
+
+section#tabela {
+    padding: 0px 0px 20px 0px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: lightgrey;
+}
+
+th {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
+
+td {
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+td.sites:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+a.bot {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+a.bot:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+/*Sobr mim*/
+
+section#sobre {
+    display: flex;
+    padding: 0px 20px 20px 20px;
+}
+
+section#sobre p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+div.paragrafo {
+    background-color: lightgrey;
+    font-family: cursive;
+    width: 50vw;
+    border: 2px solid black;
+    margin: 20px;
+    
+}
+
+div.paragrafo h1 {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+div.paragrafo p {
+    padding: 20px;
+    line-height: 2em;
+}
+
+div.paragrafo ul {
+    padding: 50px;
+}
+
+div.paragrafo li {
+    text-decoration: none;
+    line-height: 2em;
+    font-size: 1.8em;
+}
+
+/*Meus repositórios*/
+
+section#contato {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+img.foto0 {
+    display: inline-block;
+    margin: 20px;
+}
+
+
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+}

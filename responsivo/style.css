@@ -1,0 +1,79 @@
+@media (max-width: 600px) {
+    div#dados h1, h2 {
+        text-align: center;
+    }
+
+    div#dados p {
+        display: block;
+        color: white;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    img#victor {
+        display: none;
+    }
+
+    img#victor2 {
+     display: block; 
+     margin: auto;
+     width: 110px;
+     height: 110px;  
+    }
+
+    
+}
+
+@media (max-width: 750px) {
+    img#victor {
+        display: none;
+    }
+
+    img#victor2 {
+     display: block; 
+     margin: auto;
+     width: 110px;
+     height: 110px;  
+    }
+
+    div#dados p {
+        display: block;
+        color: white;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    section#sobre {
+        display: block;
+    }
+
+    div#dados h1, h2 {
+        text-align: center;
+    }
+
+    div.paragrafo {
+        width: 80vw;
+        margin: 20px auto;
+        
+    }
+}
+
+@media (max-width: 900px) {
+    div#dados h1, h2 {
+        text-align: center;
+    }
+
+    img.icones {
+        display: none;
+    }
+
+    div#dados p {
+        display: block;
+        color: white;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+   
+
+}
